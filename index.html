@@ -8,8 +8,9 @@
 <body>
     <script>
         function getComputerChoice(){
+            let fg = Math.floor(Math.random()*3)
             let computerChoices = ["rock", "paper", "scissors"];
-            let choice = computerChoices[Math.floor(Math.random()*2 + 1)];
+            let choice = computerChoices[Math.floor(Math.random()*3)];
             return choice;
         }
         function playRound(playerSelection , computerSelection){
