@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(197, 236, 236);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+#header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-left:30px ;
+    height: 50px;
+}
+#scoresDisplayContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#scoresDisplay{
+    display: inline;
+    background-color:black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 110px;
+    width: 300px;
+    font-size: 50px;
+    margin-right: 30px;
+}
+#pointsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pointsContainer1{
+    text-align: center;
+}
+#pointsContainer2{
+    text-align: center;
+}
+#computers_points{
+    background-color: white;
+    width: 100px;
+    color: black;
+    font-size: 30px;
+}
+#your_points{
+    background-color: white;
+    width: 100px;
+
+    color: black;
+    font-size: 30px;
+}
+p{
+    height: 30px;
+    margin: 0%;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#imageButtons{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    height: 250px;
+    width: 350px;
+    border-radius: 60px;
+}
+button{
+    background-size: cover;
+    border-radius: 60px;
+}
