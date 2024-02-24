@@ -11,26 +11,28 @@
         <h2>Rock Paper Scissors Game</h2>
     </div>
     <div id="scoresDisplayContainer">
-        <div id="results">
+        <div id="resultsContainer">
+            <div id="results">Click on any image to begin the game </div>
         </div>
         <div id="scoresDisplay">
             <p>Scores</p>
             <div id="pointsContainer">
                 <div id="pointsContainer1">
-                    <div id="computers_points">0</div>
                     <div class="pointsOwner">Computer</div>
+                    <div id="computers_points">0</div>
                 </div>
                 <div id="pointsContainer2">
-                    <div id="your_points">0</div>
                     <div class="pointsOwner">Player</div>
+                    <div id="your_points">0</div>
                 </div>
             </div>
         </div>
     </div>
     <div id="imageButtons">
-        <button><img src="rock.png" alt="rock image"></button>
-        <button><img src="paper.png" alt="paper image"></button>
-        <button><img src="scissors.png" alt="scissors image"></button>
+        <button id="rock_button"><img src="rock.png" alt="rock image"></button>
+        <button id="paper_button"><img src="paper.png" alt="paper image"></button>
+        <button id="scissors_button"><img src="scissors.png" alt="scissors image"></button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
